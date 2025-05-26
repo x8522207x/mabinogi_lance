@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="666" />
+    <meta property="og:image:height" content="364" />
+    <meta property="og:title" content="波拉西亞戰記-砂之刺客" />
+    <meta property="og:description" content="波拉西亞戰記-要塞即將開放" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>波拉西亞戰記-砂之刺客 | Wars of Prasia</title>
+    <link
+      rel="mask-icon"
+      href="img/icon/safari-pinned-tab.svg"
+      color="#162c32"
+    />
+    <link rel="shortcut icon" href="img/icon/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script
+      type="text/javascript"
+      src="https://frontend.beanfun.com/plugins/game-footer/game-footer.js"
+      id="game-footer"
+      prod="波拉西亞"
+      theme="dark"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://tw.beanfun.com/js/GA_CodeNew.js"
+    ></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="plate_base">
+        <div class="scrollbar">
+          <div class="scrollbar_thumb">
+            <span></span>
+          </div>
+        </div>
+        <div class="cursor"></div>
+      </div>
+      <div id="plate_modal">
+        <div class="modal type--youtube">
+          <div
+            class="modal_dimmed"
+            style="background-color: rgba(0, 0, 0, 0.8)"
+          >
+            <div class="loading">
+              <div
+                class="spinner_wave_dots"
+                style="--42f2e9e9: rgba(100, 100, 100, 1)"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="modal_wrap"
+            style="
+              translate: none;
+              rotate: none;
+              scale: none;
+              transform: translate(0px, 0px);
+            "
+          >
+            <div class="modal_inner">
+              <div class="modal_box">
+                <div class="modal_box_theme"></div>
+                <div class="modal_box_veil">
+                  <div
+                    class="spinner_wave_dots"
+                    style="--42f2e9e9: rgba(100, 100, 100, 1)"
+                  >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <div class="modal_source">
+                  <span
+                    class="modal_source_ratio"
+                    style="padding-top: 56.4945%"
+                  ></span>
+                </div>
+              </div>
+              <button class="modal_close">
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="toast_area"></div>
+      </div>
+      <div id="plate_nav">
+        <div class="nav_top">
+          <div
+            class="event_gnb type_clear"
+            style="
+              --75824c3e: rgba(27, 30, 34, 1);
+              --47759c69: rgba(255, 255, 255, 1);
+              --028dbcb1: rgba(122, 99, 67, 1);
+              --aa46ff86: rgba(0, 0, 0, 1);
+              --4fcf305d: rgba(255, 255, 255, 1);
+              --2c0e22cd: rgba(122, 99, 67, 0.05);
+            "
+          >
+            <div class="event_gnb_default">
+              <div class="event_gnb_default_wrap">
+                <div class="event_gnb_default_left">
+                  <button class="event_gnb_menu">
+                    <span></span>
+                  </button>
+                  <a
+                    href="https://warsofprasia.beanfun.com/Main"
+                    class="event_gnb_logo"
+                    target="_blank"
+                  >
+                    <img src="img/icon/LOGO-tw.png" class="icon" />
+                    <img src="img/icon/LOGO.png" class="mobile_icon" />
+                  </a>
+                </div>
+                <div class="event_gnb_default_right">
+                  <div class="event_gnb_gamestart">
+                    <button>GAME START</button>
+                  </div>
+                  <div class="event_gnb_links">
+                    <ul>
+                      <li>
+                        <a
+                          href="https://warsofprasia.beanfun.com/Main"
+                          target="_blank"
+                        >
+                          <i class="i--home -box"></i>
+                          <span></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.facebook.com/warsofprasia.tw"
+                          target="_blank"
+                        >
+                          <i class="i--logo-fb -box"></i>
+                          <span></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.youtube.com/@user-warsofprasia"
+                          target="_blank"
+                        >
+                          <i class="i--logo-youtube -box"></i>
+                          <span></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="event_gnb_teleport"></div>
+          </div>
+          <div id="nav_top_teleport"></div>
+        </div>
+        <button class="gotop">
+          <i class="i--gotop"></i>
+        </button>
+        <div class="event_banner" style="--618ead0a: 95px">
+          <span class="event_banner_dimmed"></span>
+          <div class="event_banner_content" style="margin-top: 0px">
+            <div class="event_banner_menu">
+              <button class="event_banner_menu_button">
+                <span>活動</span>
+              </button>
+            </div>
+            <div class="event_banner_content_wrap">
+              <a
+                href="https://warsofprasia.beanfun.com/Main"
+                class="event_banner_home"
+                target="_blank"
+              >
+                <div class="logo">
+                  <span></span>
+                  <img
+                    src="img/icon/LOGO-tw.png"
+                    alt=""
+                    class="visible_roomy"
+                  />
+                  <img
+                    src="img/icon/LOGO-tw.png"
+                    alt=""
+                    class="visible_mobile"
+                  />
+                </div>
+              </a>
+              <div class="event_banner_list">
+                <ul>
+                  <li>
+                    <a
+                      href="https://warsofprasia-event.beanfun.com/EventAD/EventAD?eventAdId=10634"
+                      class="event_banner_item"
+                      target="_blank"
+                    >
+                      <div class="image">
+                        <img src="img/icon/banner_01.jpg" alt="" />
+                      </div>
+                      <div class="content">直升30等</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://tw.hicdn.beanfun.com/beanfun/promo/TWP/20240904/index.html"
+                      class="event_banner_item"
+                      target="_blank"
+                    >
+                      <div class="image">
+                        <img src="img/icon/banner_02_on.jpg" alt="" />
+                      </div>
+                      <div class="content">鯨獅</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://warsofprasia-event.beanfun.com/eventad/eventad?eventADID=10431"
+                      class="event_banner_item"
+                      target="_blank"
+                    >
+                      <div class="image">
+                        <img src="img/icon/banner_03.jpg" alt="" />
+                      </div>
+                      <div class="content">WPC</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="event_banner_store">
+                <a
+                  href="https://play.google.com/store/apps/details?hl=zh-TW&id=com.gamania.twp&referrer=adjust_reftag%3Dc1yWGEH0cDaIG%26utm_source%3D%25E6%25AD%25A3%25E5%25BC%258F%25E5%25AE%2598%25E7%25B6%25B2_AOS"
+                  target="_blank"
+                >
+                  <img
+                    src="img/icon/btn-download-gp.png"
+                    alt="Google Play下載"
+                  />
+                </a>
+                <a
+                  href="https://apps.apple.com/tw/app/%E6%B3%A2%E6%8B%89%E8%A5%BF%E4%BA%9E%E6%88%B0%E8%A8%98/id6451229143"
+                  target="_blank"
+                >
+                  <img
+                    src="img/icon/btn-download-as.png"
+                    alt="Apple Store下載"
+                  />
+                </a>
+                <a
+                  href="https://warsofprasia.beanfun.com/Download?downloadTarget=1"
+                  target="_blank"
+                >
+                  <img src="img/icon/btn-download-pc.png" alt="PC下載" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="plate_page"
+        style="--72516594: 0px; --9617c380: 0px; --cfc4fde0: 0px"
+      >
+        <div class="page_events_sunkeeper">
+          <div class="nav_side">
+            <div>
+              <ol>
+                <li class="depth_1">
+                  <button class="page_p1">新職業：太陽監視者</button>
+                </li>
+                <li class="depth_2">
+                  <button class="page_p2">職業介紹</button>
+                </li>
+                <li class="depth_2">
+                  <button class="page_p3">角色姿態</button>
+                </li>
+                <li class="depth_1">
+                  <button class="page_p4">EP2時空裂縫</button>
+                </li>
+                <li class="depth_2">
+                  <button class="page_p5">區域：石牙象之脊</button>
+                </li>
+                <li class="depth_1">
+                  <button class="page_p6">新世界：賽爾頓</button>
+                </li>
+                <li class="depth_1">
+                  <button class="page_p7">EP2紀念更新獎勵</button>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="section-pages swiper-container">
+            <div class="page-group swiper-wrapper">
+              <div
+                class="swiper-slide swiper-slide-page"
+                data-title="新職業：太陽監視者"
+              >
+                <section class="area" id="page1">
+                  <div class="visual">
+                    <span class="bg"></span>
+                    <video loop autoplay muted playsinline id="m-p1Video">
+                      <source
+                        src="img/page1/main_mo_loop.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                    <video
+                      loop
+                      autoplay
+                      muted
+                      playsinline
+                      id="p1Video"
+                      class="animate"
+                    >
+                      <source src="img/page1/p1_pc_loop.mp4" type="video/mp4" />
+                    </video>
+                    <span class="bg_overlay"></span>
+                  </div>
+                  <div class="content">
+                    <div class="content_wrap">
+                      <div class="header">
+                        <h2 class="title animate">
+                          <span> </span>
+                        </h2>
+                      </div>
+                      <div class="detail_p1 animate">
+                        <p class="date">2024.10.02（三） UPDATE</p>
+                        <button class="video-open">
+                          <span></span>
+                        </button>
+                        <span class="scroll"></span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div data-title="職業介紹" class="swiper-slide swiper-slide-page">
+                <section class="area">
+                  <div class="visual">
+                    <span class="bg_p2"></span>
+                    <span class="dimmed_p2"></span>
+                  </div>
+                  <div class="content">
+                    <div class="content_wrap">
+                      <div class="header">
+                        <h3 class="title_p2">
+                          <sup></sup>
+                          <span>恰卡&沙漏</span>
+                        </h3>
+                      </div>
+                      <div class="detail_p2 animate">
+                        <dl class="weapon">
+                          <dt>洽卡 [武器]</dt>
+                          <dd>
+                            蘊含著守護波拉西亞王室的兩把短劍<br />透過恰卡和牽引繩的形式呈現。
+                          </dd>
+                        </dl>
+                        <div class="weaponLine"></div>
+                        <dl class="gear">
+                          <dt>沙漏 [特化裝備]</dt>
+                          <dd>
+                            操控時間的沙漏<br />引發金黃色的沙浪，同時進行治癒和攻擊。
+                          </dd>
+                        </dl>
+                        <span class="gearLine"></span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div data-title="角色姿態" class="swiper-slide swiper-slide-page">
+                <section class="area">
+                  <div class="visual">
+                    <span class="bg_p3"></span>
+                    <span class="dimmed_p3"></span>
+                  </div>
+                  <div class="content">
+                    <div class="content_wrap">
+                      <div class="header">
+                        <div class="title_p3">
+                          <sup></sup>
+                          <span>劍舞-疾風-均衡</span>
+                        </div>
+                      </div>
+                      <div class="detail_p3">
+                        <dl class="stans1">
+                          <dt></dt>
+                          <dd>
+                            <strong></strong>
+                            <p></p>
+                            <video
+                              loop
+                              autoplay
+                              muted
+                              playsinline
+                              class="visible-roomy"
+                            >
+                              <source src="img/page3/p3_stans_vod_1.mp4" />
+                            </video>
+                          </dd>
+                        </dl>
+                        <dl class="stans2">
+                          <dt></dt>
+                          <dd>
+                            <strong></strong>
+                            <p></p>
+                            <video
+                              loop
+                              autoplay
+                              muted
+                              playsinline
+                              class="visible-roomy"
+                            >
+                              <source src="img/page3/p3_stans_vod_2.mp4" />
+                            </video>
+                          </dd>
+                        </dl>
+                        <dl class="stans3">
+                          <dt></dt>
+                          <dd>
+                            <strong></strong>
+                            <p></p>
+                            <video
+                              loop
+                              autoplay
+                              muted
+                              playsinline
+                              class="visible-roomy"
+                            >
+                              <source src="img/page3/p3_stans_vod_3.mp4" />
+                            </video>
+                          </dd>
+                        </dl>
+                        <a
+                          href="https://warsofprasia.beanfun.com/Career"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div data-title="時空裂縫" class="swiper-slide swiper-slide-page">
+                <section class="area" id="page4">
+                  <div class="visual">
+                    <span class="bg_p4"></span>
+                    <span class="dimmed_p4"></span>
+                  </div>
+                  <div class="content">
+                    <div class="content_wrap">
+                      <div class="header">
+                        <h3 class="title_p4">
+                          <span></span>
+                        </h3>
+                      </div>
+                      <div class="detail_p4">
+                        <button class="video-open"></button>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div
+                data-title="區域：石牙象之脊"
+                class="swiper-slide swiper-slide-page"
+              >
+                <section class="area" id="page5">
+                  <div class="visual">
+                    <span class="bg_p5"></span>
+                    <span class="dimmed_p5"></span>
+                    <video
+                      loop
+                      autoplay
+                      muted
+                      playsinline
+                      class="visible-roomy"
+                    >
+                      <source src="img/page5/p5_video_back.mp4" />
+                    </video>
+                    <video loop autoplay muted playsinline>
+                      <source src="img/page5/p5_video_back_m.mp4" />
+                    </video>
+                  </div>
+                  <div class="content">
+                    <div class="content_wrap">
+                      <div class="header">
+                        <div class="title_p5">
+                          <sup>時空縫隙</sup>
+                          <span>石牙象之脊</span>
+                        </div>
+                      </div>
+                      <div class="detail_p5">
+                        <p>
+                          與時空縫隙形成時一同沉睡的石牙象地區<br />隨者1,600年前過去，村莊和人們跨越時間準備迎接守護者
+                        </p>
+                        <ul>
+                          <li>古代姆克羅</li>
+                          <li>黑色刀刃羅班斯</li>
+                          <li>銀色閃光伊斯多爾</li>
+                          <li>野獸調配者</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div
+                data-title="新世界：賽爾頓"
+                class="swiper-slide swiper-slide-page"
+              >
+                <section class="area" id="page6">
+                  <div class="visual">
+                    <span class="bg_p6"></span>
+                    <span class="dimmed_p6"></span>
+                  </div>
+                  <div class="content">
+                    <div class="content_wrap">
+                      <div class="header">
+                        <div class="title_p6">
+                          <sup>新世界</sup>
+                          <span>賽爾頓</span>
+                        </div>
+                      </div>
+                      <div class="detail_p6">
+                        <p>
+                          <span>10月02日 維護後 正式開啟！</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div
+                data-title="EP2紀念更新獎勵"
+                class="swiper-slide swiper-slide-page"
+              >
+                <section class="area" id="page7">
+                  <div class="visual">
+                    <span class="bg_p7"></span>
+                  </div>
+                  <div class="content">
+                    <div class="content_wrap">
+                      <div class="header">
+                        <div class="title_p7">
+                          <span></span>
+                        </div>
+                      </div>
+                      <div class="detail_p7">
+                        <dl class="reward1"></dl>
+                        <dl class="reward2"></dl>
+                        <dl class="reward3"></dl>
+                        <div class="swiper-container nested-swiper">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./img/page7/p7_reward1_m.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./img/page7/p7_reward2_m.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./img/page7/p7_reward3_m.png" alt="" />
+                            </div>
+                          </div>
+                          <ol>
+                            <li>
+                              <i class="progress1"></i>
+                            </li>
+                            <li>
+                              <i class="progress2"></i>
+                            </li>
+                            <li>
+                              <i class="progress3"></i>
+                            </li>
+                          </ol>
+                          <div class="swiper-button-next"></div>
+                          <div class="swiper-button-prev"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

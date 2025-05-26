@@ -1,0 +1,278 @@
+.side_nav .btn_start span,.side_nav span.btn_span {
+    font-size: 0;
+    text-indent: -99999px
+}
+
+.side_nav:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.side_nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 11;
+    width: 295px;
+    height: 100%;
+    background: rgba(0,0,0,.9);
+    letter-spacing: normal !important;
+    transition: right .3s ease-in-out
+}
+
+.side_nav span.btn_span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 0
+}
+
+.side_nav .swrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 63px;
+    box-sizing: border-box
+}
+
+.responsive .side_nav .swrap {
+    padding-top: 0 !important
+}
+
+.side_nav .btn_start {
+    position: relative;
+    float: left;
+    width: 195px;
+    height: 70px;
+    background-color: #000;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.side_nav .btn_start span {
+    position: relative;
+    z-index: inherit;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_start_txt.png?a482e630168311ce5421) no-repeat center/auto 22px
+}
+
+.side_nav .btn_start:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 452px;
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_start_bg.png?daff4a5532ee8b4027bd) no-repeat 0 0/195px 452px;
+    animation: sideNavStartAni 12s linear infinite
+}
+
+@keyframes sideNavStartAni {
+    0% {
+        top: 0
+    }
+
+    100% {
+        top: -382px
+    }
+}
+
+.side_nav .btn_home {
+    float: left;
+    width: 100px;
+    height: 70px;
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_home.png?06f488955bf2affbe948) no-repeat center center/auto 15px
+}
+
+.side_nav .today_box {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_today.png?d7fc92d17a06838f9bfc) no-repeat center center/auto 20px;
+    border-bottom: 1px solid #1b1b1b;
+    border-top: 1px solid #1b1b1b;
+    overflow: hidden;
+    clear: both
+}
+
+.side_nav .today_box input {
+    position: absolute;
+    top: 0;
+    left: -30px
+}
+
+.side_nav .today_box .btn_span {
+    cursor: pointer
+}
+
+.side_nav .btn_box {
+    width: 100%;
+    clear: both
+}
+
+.side_nav .btn_box.ss {
+    padding-top: 54px;
+    background: #0c1439 url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_bg.png?2c1776287696a0a26c90) no-repeat 0 0/auto 54px;
+    box-sizing: border-box
+}
+
+.side_nav .btn_box.ss li {
+    height: 99px;
+    background-size: auto 99px !important
+}
+
+.side_nav .btn_box.ss li .btn_span {
+    position: relative
+}
+
+.side_nav .btn_box.ss li .btn_span:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    width: 0;
+    height: 100%;
+    background-size: auto 99px !important;
+    transition: width .3s ease-in-out
+}
+
+.side_nav .btn_box.ss li:hover .btn_span:before {
+    background-position-x: -590px !important
+}
+
+.side_nav .btn_box.ss li.on .btn_span:before {
+    background-position-x: -295px !important
+}
+
+.side_nav .btn_box.ss li.open:hover .btn_span:before {
+    background-position-x: -295px !important
+}
+
+.side_nav .btn_box.ss li:hover .btn_span:before,.side_nav .btn_box.ss li.on .btn_span:before {
+    width: 100%
+}
+
+.side_nav .btn_box.ss li:nth-child(1) {
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_update1.png?a0c483000a54252fc86d) no-repeat 0 0
+}
+
+.side_nav .btn_box.ss li:nth-child(1) .btn_span:before {
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_update1.png?a0c483000a54252fc86d) no-repeat -295px 0
+}
+
+.side_nav .btn_box.ss li:nth-child(2) {
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_update2.png?3ed76602d03212d98a27) no-repeat 0 0
+}
+
+.side_nav .btn_box.ss li:nth-child(2) .btn_span:before {
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_update2.png?3ed76602d03212d98a27) no-repeat -295px 0
+}
+
+.side_nav .btn_box.ss li:nth-child(3) {
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_update3.png?31ee8eccadef75cc8d24) no-repeat 0 0
+}
+
+.side_nav .btn_box.ss li:nth-child(3) .btn_span:before {
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_update3.png?31ee8eccadef75cc8d24) no-repeat -295px 0
+}
+
+.side_nav .btn_box.ss li:nth-child(4) {
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_update4.png?dd99b8479b0d6338e1ad) no-repeat 0 0
+}
+
+.side_nav .btn_box.ss li:nth-child(4) .btn_span:before {
+    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_update4.png?dd99b8479b0d6338e1ad) no-repeat -295px 0
+}
+
+.side_nav .btn_box li {
+    position: relative;
+    height: 89px;
+    border-bottom: 1px solid #1b1b1b;
+    font-family: "NexonGothic","NEXON Gothic",Arial,sans-serif;
+    font-weight: bold
+}
+
+.side_nav .btn_box li a {
+    text-decoration: none
+}
+
+.side_nav .btn_box li .btn_txt {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    line-height: 89px;
+    color: #575757;
+    text-align: center;
+    transition: color .3s ease-out
+}
+
+.side_nav .btn_box li .multi .btn_txt {
+    padding: 22px 0 23px;
+    box-sizing: border-box;
+    line-height: 22px;
+    transition: none
+}
+
+.side_nav .btn_box li .multi .btn_txt+span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 22px 0 23px;
+    box-sizing: border-box;
+    font-size: 17px;
+    line-height: 22px;
+    color: #fff;
+    text-align: center
+}
+
+.side_nav .btn_box li.img {
+    height: auto
+}
+
+.side_nav .btn_box li.img img {
+    width: 100%;
+    height: auto
+}
+
+.side_nav .btn_box li:hover .btn_txt,.side_nav .btn_box li.on .btn_txt {
+    color: #3b6df9
+}
+
+.side_nav .btn_toggle {
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    z-index: 11;
+    width: 25px;
+    height: 60px;
+    margin-top: -30px;
+    background: #000 url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2024/1202_menu_digh29/images/side_nav_btn_toggle.png?01f85b21cca5a6e0c84e) no-repeat 0 0/50px auto
+}
+
+.side_nav.hide {
+    right: -295px
+}
+
+.side_nav.hide .btn_toggle {
+    background-position: right 0
+}
+
+.mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical,.mCSB_outside+.mCS-minimal.mCSB_scrollTools_vertical {
+    margin-top: 74px
+}
+
+.mCSB_scrollTools {
+    width: 6px
+}
