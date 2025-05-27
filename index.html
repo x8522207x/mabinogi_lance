@@ -23,18 +23,11 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-bundle.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
     <script
       type="text/javascript"
       src="https://frontend.beanfun.com/plugins/game-footer/game-footer.js"
@@ -49,37 +42,22 @@
     <script src="js/main.js"></script>
   </head>
 
-  <body>
-    <div id="app">
-      <div id="plate_base">
-        <div class="scrollbar">
-          <div class="scrollbar_thumb">
-            <span></span>
-          </div>
-        </div>
-        <div class="cursor"></div>
+  <body style="overflow: auto">
+    <div class="wrap" name="Top">
+      <div class="top">
+        <a class="logo" href="javascript:go_home();">
+          <img
+            src="https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/logo.png?34a0daa506d9e390b2da"
+            alt="마비노기"
+          />
+        </a>
       </div>
-      <div id="plate_modal">
-        <div class="modal type--youtube">
+
+      <!-- Contents -->
+      <div class="cont cont_01">
+        <div class="intro">
           <div
-            class="modal_dimmed"
-            style="background-color: rgba(0, 0, 0, 0.8)"
-          >
-            <div class="loading">
-              <div
-                class="spinner_wave_dots"
-                style="--42f2e9e9: rgba(100, 100, 100, 1)"
-              >
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
-          </div>
-          <div
-            class="modal_wrap"
+            class="left"
             style="
               translate: none;
               rotate: none;
@@ -87,533 +65,807 @@
               transform: translate(0px, 0px);
             "
           >
-            <div class="modal_inner">
-              <div class="modal_box">
-                <div class="modal_box_theme"></div>
-                <div class="modal_box_veil">
-                  <div
-                    class="spinner_wave_dots"
-                    style="--42f2e9e9: rgba(100, 100, 100, 1)"
-                  >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                </div>
-                <div class="modal_source">
-                  <span
-                    class="modal_source_ratio"
-                    style="padding-top: 56.4945%"
-                  ></span>
-                </div>
-              </div>
-              <button class="modal_close">
-                <span></span>
-              </button>
-            </div>
+            <div class="frame"></div>
+            <div
+              class="char breathe"
+              style="
+                translate: none;
+                rotate: none;
+                scale: none;
+                opacity: 1;
+                transform: translate(0px, 0px);
+              "
+            ></div>
+            <div class="title" style="opacity: 1"></div>
+            <div class="title_over"></div>
           </div>
-        </div>
-        <div id="toast_area"></div>
-      </div>
-      <div id="plate_nav">
-        <div class="nav_top">
           <div
-            class="event_gnb type_clear"
+            class="right"
             style="
-              --75824c3e: rgba(27, 30, 34, 1);
-              --47759c69: rgba(255, 255, 255, 1);
-              --028dbcb1: rgba(122, 99, 67, 1);
-              --aa46ff86: rgba(0, 0, 0, 1);
-              --4fcf305d: rgba(255, 255, 255, 1);
-              --2c0e22cd: rgba(122, 99, 67, 0.05);
+              translate: none;
+              rotate: none;
+              scale: none;
+              transform: translate(0px, 0px);
             "
           >
-            <div class="event_gnb_default">
-              <div class="event_gnb_default_wrap">
-                <div class="event_gnb_default_left">
-                  <button class="event_gnb_menu">
-                    <span></span>
-                  </button>
-                  <a
-                    href="https://warsofprasia.beanfun.com/Main"
-                    class="event_gnb_logo"
-                    target="_blank"
-                  >
-                    <img src="img/icon/LOGO-tw.png" class="icon" />
-                    <img src="img/icon/LOGO.png" class="mobile_icon" />
-                  </a>
-                </div>
-                <div class="event_gnb_default_right">
-                  <div class="event_gnb_gamestart">
-                    <button>GAME START</button>
-                  </div>
-                  <div class="event_gnb_links">
-                    <ul>
-                      <li>
-                        <a
-                          href="https://warsofprasia.beanfun.com/Main"
-                          target="_blank"
-                        >
-                          <i class="i--home -box"></i>
-                          <span></span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.facebook.com/warsofprasia.tw"
-                          target="_blank"
-                        >
-                          <i class="i--logo-fb -box"></i>
-                          <span></span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.youtube.com/@user-warsofprasia"
-                          target="_blank"
-                        >
-                          <i class="i--logo-youtube -box"></i>
-                          <span></span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="event_gnb_teleport"></div>
+            <div class="frame"></div>
+            <div
+              class="char breathe"
+              style="
+                translate: none;
+                rotate: none;
+                scale: none;
+                opacity: 1;
+                transform: translate(0px, 0px);
+              "
+            ></div>
+            <div class="title" style="opacity: 1"></div>
+            <div class="title_over"></div>
           </div>
-          <div id="nav_top_teleport"></div>
+          <div class="title" style="opacity: 1"></div>
         </div>
-        <button class="gotop">
-          <i class="i--gotop"></i>
-        </button>
-        <div class="event_banner" style="--618ead0a: 95px">
-          <span class="event_banner_dimmed"></span>
-          <div class="event_banner_content" style="margin-top: 0px">
-            <div class="event_banner_menu">
-              <button class="event_banner_menu_button">
-                <span>活動</span>
-              </button>
-            </div>
-            <div class="event_banner_content_wrap">
-              <a
-                href="https://warsofprasia.beanfun.com/Main"
-                class="event_banner_home"
-                target="_blank"
-              >
-                <div class="logo">
-                  <span></span>
-                  <img
-                    src="img/icon/LOGO-tw.png"
-                    alt=""
-                    class="visible_roomy"
-                  />
-                  <img
-                    src="img/icon/LOGO-tw.png"
-                    alt=""
-                    class="visible_mobile"
-                  />
+        <div class="cbox" style="display: block">
+          <div class="cbox_btn left"></div>
+          <div class="cbox_btn right"></div>
+        </div>
+      </div>
+
+      <div class="tab tab1" style="display: none">
+        <div class="cont cont_02">
+          <div class="btn_go btn_go1">
+            <a
+              target="_blank"
+              href="/page/event/2022/0811_next/index.asp#section1"
+              ><span class="btn_span">아르카나란 무엇일까?</span></a
+            >
+          </div>
+          <div class="btn_go btn_go2">
+            <a
+              target="_blank"
+              href="/page/event/2022/0811_next/index.asp#section5"
+              ><span class="btn_span">아르카나 강화에 대해 알아보기</span></a
+            >
+          </div>
+
+          <div class="yt_vid">
+            <iframe
+              src="https://www.youtube.com/embed/pErOoRqwrrU?si=2OyFeruWabW1jgI1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen=""
+            ></iframe>
+            <div class="click"></div>
+          </div>
+        </div>
+        <div class="cont cont_03">
+          <div class="txt"></div>
+          <div class="btn_char btn_char1">
+            <div class="bg">
+              <div class="bbox">
+                <div class="vbox">
+                  <audio
+                    class="bgm"
+                    src="https://mabinogi.vod.nexoncdn.co.kr/music/NPC_Matthaus.mp3"
+                    preload="none"
+                    loop=""
+                  ></audio>
                 </div>
-              </a>
-              <div class="event_banner_list">
-                <ul>
-                  <li>
-                    <a
-                      href="https://warsofprasia-event.beanfun.com/EventAD/EventAD?eventAdId=10634"
-                      class="event_banner_item"
-                      target="_blank"
-                    >
-                      <div class="image">
-                        <img src="img/icon/banner_01.jpg" alt="" />
-                      </div>
-                      <div class="content">直升30等</div>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://tw.hicdn.beanfun.com/beanfun/promo/TWP/20240904/index.html"
-                      class="event_banner_item"
-                      target="_blank"
-                    >
-                      <div class="image">
-                        <img src="img/icon/banner_02_on.jpg" alt="" />
-                      </div>
-                      <div class="content">鯨獅</div>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://warsofprasia-event.beanfun.com/eventad/eventad?eventADID=10431"
-                      class="event_banner_item"
-                      target="_blank"
-                    >
-                      <div class="image">
-                        <img src="img/icon/banner_03.jpg" alt="" />
-                      </div>
-                      <div class="content">WPC</div>
-                    </a>
-                  </li>
-                </ul>
+                <div class="ctxt">
+                  새로운 아르카나 적합자 후보.<br /><br />오래전 용병 일을 하다
+                  그만두었다는 마테우스.<br />그는 현재의 평화로운 삶에 만족하는
+                  것처럼 보입니다.<br /><br />새로운 적합자를 놓칠 수 없었던
+                  레이르의 설득 끝에<br />모종의 조건을 달고 협회에 가입하게
+                  되는데…<br /><br />마테우스의 거친 손과 흉터에 숨겨진 과거는
+                  무엇일까요?
+                </div>
+                <div class="bgm_info">
+                  <div class="visualizer">
+                    <div class="vvbox">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="txt">백랑(白狼)</div>
+                </div>
               </div>
-              <div class="event_banner_store">
-                <a
-                  href="https://play.google.com/store/apps/details?hl=zh-TW&id=com.gamania.twp&referrer=adjust_reftag%3Dc1yWGEH0cDaIG%26utm_source%3D%25E6%25AD%25A3%25E5%25BC%258F%25E5%25AE%2598%25E7%25B6%25B2_AOS"
-                  target="_blank"
-                >
-                  <img
-                    src="img/icon/btn-download-gp.png"
-                    alt="Google Play下載"
-                  />
-                </a>
-                <a
-                  href="https://apps.apple.com/tw/app/%E6%B3%A2%E6%8B%89%E8%A5%BF%E4%BA%9E%E6%88%B0%E8%A8%98/id6451229143"
-                  target="_blank"
-                >
-                  <img
-                    src="img/icon/btn-download-as.png"
-                    alt="Apple Store下載"
-                  />
-                </a>
-                <a
-                  href="https://warsofprasia.beanfun.com/Download?downloadTarget=1"
-                  target="_blank"
-                >
-                  <img src="img/icon/btn-download-pc.png" alt="PC下載" />
-                </a>
-              </div>
+              <div class="btn_close"></div>
             </div>
+            <div class="char"></div>
+          </div>
+        </div>
+        <div class="cont cont_04">
+          <div class="txt"></div>
+          <div class="btn_go_pop btn_go_pop1" data-pop-id="s4p1">
+            <a href="#"><span class="btn_span"></span></a>
+          </div>
+          <div class="btn_go_pop btn_go_pop2" data-pop-id="s4p2">
+            <a href="#"><span class="btn_span"></span></a>
+          </div>
+          <div class="btn_go_pop btn_go_pop3" data-pop-id="s4p3">
+            <a href="#"><span class="btn_span"></span></a>
+          </div>
+          <div class="btn_go_pop btn_go_pop4" data-pop-id="s4p4">
+            <a href="#"><span class="btn_span"></span></a>
+          </div>
+          <div class="btn_go_pop btn_go_pop5" data-pop-id="s4p5">
+            <a href="#"><span class="btn_span"></span></a>
+          </div>
+          <div class="btn_go_pop btn_go_pop6" data-pop-id="s4p6">
+            <a href="#"><span class="btn_span"></span></a>
+          </div>
+          <div class="btn_go_pop btn_go_pop7" data-pop-id="s4p7">
+            <a href="#"><span class="btn_span"></span></a>
+          </div>
+        </div>
+        <div class="cont cont_05"></div>
+        <div class="cont cont_06">
+          <div class="btn_go">
+            <a target="_blank" href="/page/news/notice_view.asp?id=4892516"
+              ><span class="btn_span">이벤트 자세히 보기</span></a
+            >
+          </div>
+        </div>
+        <div class="cont cont_07">
+          <iframe
+            src="https://smore.im/embed/uejajQIu4s"
+            frameborder="0"
+            height="912"
+            width="720"
+            allowfullscreen=""
+          ></iframe>
+          <div class="btn_go btn_go1">
+            <a
+              href="https://first.nexon.com/thinker/direct/public/survey/YVpJsVHyvN"
+              target="_blank"
+              ><span class="btn_span">SNS 공유 이벤트 참여하기</span></a
+            >
+          </div>
+          <div class="btn_go btn_go2">
+            <a href="/page/ucc/comic_home.asp"
+              ><span class="btn_span">웹툰 감상하러 가기</span></a
+            >
+          </div>
+        </div>
+        <div class="event_info_wrap">
+          <h2>안내 사항 <small>꼭 읽어주세요</small></h2>
+          <div class="event_ibox" id="event_ibox1">
+            <p>
+              <font color="#00cccc"
+                ><strong>[아르카나 성향 테스트]</strong><br />
+                ◈ 이벤트 안내</font
+              ><br />
+              * 이벤트 참여는 넥슨ID당 1회만 가능합니다.<br />
+              &nbsp;&nbsp; - 제출 폼 작성은 1회만 가능하며, 제출 후에는 수정이
+              불가합니다.<br />
+              * <font color="#00cccc"><u>#마비노기</u> </font>,
+              <u><font color="#00cccc">#아르카나</font></u> 두&nbsp;가지
+              해시태그 누락 시 당첨자 선정에서 제외됩니다.<br />
+              * SNS는 인스타그램, 페이스북, X, 네이버 블로그 등 종류
+              무관합니다.<br />
+              * SNS를 비공개 계정으로 설정하거나 이벤트 당첨자 발표 전 SNS
+              게시글을 삭제하시면 이벤트 참여 인정이 어렵습니다.<br />
+              <br />
+              <font color="#00cccc">◈ 당첨 발표 및 경품 수령 관련 안내</font
+              ><br />
+              * 당첨자 발표일(2025/3/6)에 공지를 통해 이벤트에 당첨되신 분들을
+              안내해 드릴 예정입니다.<br />
+              &nbsp;&nbsp; - 3월 6일(목) 중 등록되는 공지사항을 통해 당첨 확인
+              후, 개인정보 활용에 동의해야 보상을 수령하실 수 있습니다.<br />
+              * 경품은 이벤트 공지에 안내된 이미지와 사양 및 외형이 동일하지
+              않을 수 있습니다.<br />
+              * 경품은 회사 사정에 따라 사전 고지 없이 동등한 가치를 지닌 다른
+              경품으로 대체될 수 있습니다.<br />
+              * 경품은 대한민국의 행정 구역을 기준으로 발송되며, 해외 배송은
+              지원되지 않습니다.<br />
+              * 부정확한 정보 입력으로 인한 반송 혹은 수집 정보 변경으로 인해
+              경품을 수령하지 못한 경우, 다시 배송해드리지 않습니다.<br />
+              &nbsp;
+            </p>
+
+            <p>
+              <font color="#00cccc">◈ 유의사항</font><br />
+              * 보상이 지급되기 전 넥슨ID를 탈퇴할 경우 보상이 지급되지
+              않습니다.<br />
+              * 마비노기의 이용약관 및 운영 정책을 위반하였거나 부적절한 게임
+              이용이 확인된 대상자는 내부 검토에 따라 보상 지급이 취소될 수
+              있습니다.<br />
+              * 부정한 방법을 통해 이벤트에 참여한 경우, 제재를 받을 수 있으며
+              당첨된 보상도 취소됩니다.
+            </p>
           </div>
         </div>
       </div>
-      <div
-        id="plate_page"
-        style="--72516594: 0px; --9617c380: 0px; --cfc4fde0: 0px"
-      >
-        <div class="page_events_sunkeeper">
-          <div class="nav_side">
-            <div>
-              <ol>
-                <li class="depth_1">
-                  <button class="page_p1">新職業：太陽監視者</button>
+
+      <div class="tab tab2" style="display: none">
+        <div class="cont cont_08">
+          <div class="yt_vid">
+            <iframe
+              src="https://www.youtube.com/embed/i-owurWWG_o?si=G4ueImahxTnnMs_K"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen=""
+            ></iframe>
+            <div class="click"></div>
+          </div>
+          <div class="btn_voice btn_voice1">
+            <audio
+              src="https://mabinogi.vod.nexoncdn.co.kr/mabinogi_update/2025/0116_star2nd_vmfhah/NPC_Leannan_4.mp3"
+              preload="none"
+            ></audio>
+          </div>
+          <div class="btn_voice btn_voice2">
+            <audio
+              src="https://mabinogi.vod.nexoncdn.co.kr/mabinogi_update/2025/0116_star2nd_vmfhah/NPC_M_1.mp3"
+              preload="none"
+            ></audio>
+          </div>
+          <div class="ho ho1">
+            <div></div>
+          </div>
+          <div class="ho ho2">
+            <div></div>
+          </div>
+          <div class="ho ho3">
+            <div></div>
+          </div>
+        </div>
+        <div class="cont cont_09">
+          <ul class="gallery">
+            <li>
+              <a
+                data-fslightbox="fs"
+                data-type="image"
+                href="https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/1.jpg"
+                ><span class="btn_span"></span
+              ></a>
+            </li>
+            <li>
+              <a
+                data-fslightbox="fs"
+                data-type="image"
+                href="https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/2.jpg"
+                ><span class="btn_span"></span
+              ></a>
+            </li>
+            <li>
+              <a
+                data-fslightbox="fs"
+                data-type="image"
+                href="https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/3.jpg"
+                ><span class="btn_span"></span
+              ></a>
+            </li>
+            <li>
+              <a
+                data-fslightbox="fs"
+                data-type="image"
+                href="https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/4.jpg"
+                ><span class="btn_span"></span
+              ></a>
+            </li>
+            <li>
+              <a
+                data-fslightbox="fs"
+                data-type="image"
+                href="https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/5.jpg"
+                ><span class="btn_span"></span
+              ></a>
+            </li>
+            <li>
+              <a
+                data-fslightbox="fs"
+                data-type="image"
+                href="https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/6.jpg"
+                ><span class="btn_span"></span
+              ></a>
+            </li>
+            <li>
+              <a
+                data-fslightbox="fs"
+                data-type="image"
+                href="https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/7.jpg"
+                ><span class="btn_span"></span
+              ></a>
+            </li>
+            <li>
+              <a
+                data-fslightbox="fs"
+                data-type="image"
+                href="https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/8.jpg"
+                ><span class="btn_span"></span
+              ></a>
+            </li>
+            <li>
+              <a
+                data-fslightbox="fs"
+                data-type="image"
+                href="https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/9.jpg"
+                ><span class="btn_span"></span
+              ></a>
+            </li>
+          </ul>
+          <div class="ho ho1">
+            <div></div>
+          </div>
+          <div class="ho ho2">
+            <div></div>
+          </div>
+          <div class="ho ho3">
+            <div></div>
+          </div>
+          <div class="ho ho4">
+            <div></div>
+          </div>
+        </div>
+        <div class="cont cont_10"></div>
+        <div class="cont cont_11">
+          <div class="btn_go_pop" data-pop-id="s11p1">
+            <a href="#"><span class="btn_span"></span></a>
+          </div>
+          <div class="wbox">
+            <div class="wb"></div>
+
+            <ul class="list">
+              <li tabindex="1">
+                <span>소울 리버레이트<br />블레이드</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />워리어 액스</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />워리어 해머</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />소드</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />액스</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />해머</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />랜스</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />스태프</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />원드</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />힐링원드</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />사이드</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />스로잉 스타</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />리라</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />실린더</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />보우</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />크로스보우</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />핸들</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />체인 블레이드</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />듀얼건</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />너클</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />워리어 실드</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />실드</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />마도서</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />오브</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />가드실린더</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />피에로 미니어처</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />콜로서스 미니어처</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />이터널 애로우</span>
+              </li>
+              <li tabindex="1">
+                <span>소울 리버레이트<br />이터널 볼트</span>
+              </li>
+            </ul>
+          </div>
+          <div class="ebox">
+            <div class="eb"></div>
+
+            <ul class="list">
+              <li><span>어스름한 (접두)</span></li>
+              <li><span>무궁한 (접두)</span></li>
+              <li><span>끝없는 (접두)</span></li>
+              <li><span>굳센 (접두)</span></li>
+              <li><span>거침없는 (접두)</span></li>
+              <li><span>파괴적인 (접두)</span></li>
+              <li><span>해방된 (접두)</span></li>
+              <li><span>은은한 (접두)</span></li>
+              <li><span>깨어난 (접두)</span></li>
+              <li><span>위협적인 (접두)</span></li>
+              <li><span>결정적인 (접두)</span></li>
+              <li><span>속박된 (접두)</span></li>
+              <li><span>어두운 (접두)</span></li>
+              <li><span>전설의 (접두)</span></li>
+              <li><span>잊혀진 (접두)</span></li>
+              <li><span>폴리포니 (접두)</span></li>
+              <li><span>결실 (접미)</span></li>
+              <li><span>굴레 (접미)</span></li>
+              <li><span>투사 (접미)</span></li>
+              <li><span>폭주 (접미)</span></li>
+              <li><span>투지 (접미)</span></li>
+              <li><span>영혼 (접미)</span></li>
+              <li><span>유산 (접미)</span></li>
+              <li><span>동상 (접미)</span></li>
+              <li><span>재현 (접미)</span></li>
+              <li><span>강타 (접미)</span></li>
+              <li><span>잔재 (접미)</span></li>
+              <li><span>잔상 (접미)</span></li>
+              <li><span>디펜더 (접미)</span></li>
+              <li><span>공간 (접미)</span></li>
+              <li><span>템포 (접미)</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="cont cont_12"></div>
+      </div>
+
+      <div class="nav" style="display: none">
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="btn_go_main"></div>
+      </div>
+      <!-- // Contents End -->
+
+      <div id="sideNav" class="side_nav">
+        <div
+          class="swrap mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar"
+          style="overflow: visible"
+        >
+          <div
+            id="mCSB_1"
+            class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside"
+            style="max-height: none"
+            tabindex="0"
+          >
+            <div
+              id="mCSB_1_container"
+              class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y"
+              style="position: relative; top: 0; left: 0"
+              dir="ltr"
+            >
+              <div class="btn_start">
+                <a
+                  href="javascript:MabinogiGameStart();"
+                  data-a2s-code="start-click"
+                  ><span>GAME START</span></a
+                >
+              </div>
+              <div class="btn_home">
+                <a href="javascript:go_home();"
+                  ><span class="btn_span">공식 홈페이지 바로가기</span></a
+                >
+              </div>
+              <div class="today_box">
+                <input
+                  id="today_check"
+                  type="checkbox"
+                  onclick="go_home_today();"
+                />
+                <label for="today_check">
+                  <span class="btn_span">오늘 하루 보지 않기</span>
+                </label>
+              </div>
+              <!-- 해당 항목 활성화 on 클래스 추가 -->
+              <ul class="btn_box ss">
+                <li class="open">
+                  <a href="/page/event/2024/1202_stars/index.asp"
+                    ><span class="btn_span">사전 이벤트</span></a
+                  >
                 </li>
-                <li class="depth_2">
-                  <button class="page_p2">職業介紹</button>
+                <li class="open">
+                  <a href="/page/event/2024/1219_star1st/index.asp"
+                    ><span class="btn_span">블록버스타 1차 업데이트</span></a
+                  >
                 </li>
-                <li class="depth_2">
-                  <button class="page_p3">角色姿態</button>
+                <li class="open on">
+                  <a href="/page/event/2025/0116_star2nd/index.asp"
+                    ><span class="btn_span">블록버스타 2차 업데이트</span></a
+                  >
                 </li>
-                <li class="depth_1">
-                  <button class="page_p4">EP2時空裂縫</button>
+                <li class="open">
+                  <a href="/page/news/event_view.asp?id=4892580"
+                    ><span class="btn_span">브리 레흐 최종장</span></a
+                  >
                 </li>
-                <li class="depth_2">
-                  <button class="page_p5">區域：石牙象之脊</button>
+              </ul>
+              <ul class="btn_box">
+                <li class="open">
+                  <a href="/page/event/2024/1219_burst/index.asp"
+                    ><span class="btn_txt">한겨울의 빛나는 도약</span></a
+                  >
                 </li>
-                <li class="depth_1">
-                  <button class="page_p6">新世界：賽爾頓</button>
+              </ul>
+              <ul class="btn_box">
+                <li class="open">
+                  <a href="/page/news/event_view.asp?id=4892513"
+                    ><span class="btn_txt">샤이의 PC방 샤이닝 시즌 2</span></a
+                  >
                 </li>
-                <li class="depth_1">
-                  <button class="page_p7">EP2紀念更新獎勵</button>
+              </ul>
+              <ul class="btn_box">
+                <li class="open">
+                  <a href="/page/event/2025/0116_pcbang/index.asp"
+                    ><span class="btn_txt"
+                      >마비노기와 함께하는 PC방 프로모션</span
+                    ></a
+                  >
                 </li>
-              </ol>
+              </ul>
             </div>
           </div>
-          <div class="section-pages swiper-container">
-            <div class="page-group swiper-wrapper">
+          <div
+            id="mCSB_1_scrollbar_vertical"
+            class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical"
+            style="display: none"
+          >
+            <div class="mCSB_draggerContainer">
               <div
-                class="swiper-slide swiper-slide-page"
-                data-title="新職業：太陽監視者"
+                id="mCSB_1_dragger_vertical"
+                class="mCSB_dragger"
+                style="
+                  position: absolute;
+                  min-height: 50px;
+                  height: 0px;
+                  top: 0px;
+                "
               >
-                <section class="area" id="page1">
-                  <div class="visual">
-                    <span class="bg"></span>
-                    <video loop autoplay muted playsinline id="m-p1Video">
-                      <source
-                        src="img/page1/main_mo_loop.mp4"
-                        type="video/mp4"
-                      />
-                    </video>
-                    <video
-                      loop
-                      autoplay
-                      muted
-                      playsinline
-                      id="p1Video"
-                      class="animate"
-                    >
-                      <source src="img/page1/p1_pc_loop.mp4" type="video/mp4" />
-                    </video>
-                    <span class="bg_overlay"></span>
-                  </div>
-                  <div class="content">
-                    <div class="content_wrap">
-                      <div class="header">
-                        <h2 class="title animate">
-                          <span> </span>
-                        </h2>
-                      </div>
-                      <div class="detail_p1 animate">
-                        <p class="date">2024.10.02（三） UPDATE</p>
-                        <button class="video-open">
-                          <span></span>
-                        </button>
-                        <span class="scroll"></span>
-                      </div>
-                    </div>
-                  </div>
-                </section>
+                <div class="mCSB_dragger_bar" style="line-height: 50px"></div>
               </div>
-              <div data-title="職業介紹" class="swiper-slide swiper-slide-page">
-                <section class="area">
-                  <div class="visual">
-                    <span class="bg_p2"></span>
-                    <span class="dimmed_p2"></span>
-                  </div>
-                  <div class="content">
-                    <div class="content_wrap">
-                      <div class="header">
-                        <h3 class="title_p2">
-                          <sup></sup>
-                          <span>恰卡&沙漏</span>
-                        </h3>
-                      </div>
-                      <div class="detail_p2 animate">
-                        <dl class="weapon">
-                          <dt>洽卡 [武器]</dt>
-                          <dd>
-                            蘊含著守護波拉西亞王室的兩把短劍<br />透過恰卡和牽引繩的形式呈現。
-                          </dd>
-                        </dl>
-                        <div class="weaponLine"></div>
-                        <dl class="gear">
-                          <dt>沙漏 [特化裝備]</dt>
-                          <dd>
-                            操控時間的沙漏<br />引發金黃色的沙浪，同時進行治癒和攻擊。
-                          </dd>
-                        </dl>
-                        <span class="gearLine"></span>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div data-title="角色姿態" class="swiper-slide swiper-slide-page">
-                <section class="area">
-                  <div class="visual">
-                    <span class="bg_p3"></span>
-                    <span class="dimmed_p3"></span>
-                  </div>
-                  <div class="content">
-                    <div class="content_wrap">
-                      <div class="header">
-                        <div class="title_p3">
-                          <sup></sup>
-                          <span>劍舞-疾風-均衡</span>
-                        </div>
-                      </div>
-                      <div class="detail_p3">
-                        <dl class="stans1">
-                          <dt></dt>
-                          <dd>
-                            <strong></strong>
-                            <p></p>
-                            <video
-                              loop
-                              autoplay
-                              muted
-                              playsinline
-                              class="visible-roomy"
-                            >
-                              <source src="img/page3/p3_stans_vod_1.mp4" />
-                            </video>
-                          </dd>
-                        </dl>
-                        <dl class="stans2">
-                          <dt></dt>
-                          <dd>
-                            <strong></strong>
-                            <p></p>
-                            <video
-                              loop
-                              autoplay
-                              muted
-                              playsinline
-                              class="visible-roomy"
-                            >
-                              <source src="img/page3/p3_stans_vod_2.mp4" />
-                            </video>
-                          </dd>
-                        </dl>
-                        <dl class="stans3">
-                          <dt></dt>
-                          <dd>
-                            <strong></strong>
-                            <p></p>
-                            <video
-                              loop
-                              autoplay
-                              muted
-                              playsinline
-                              class="visible-roomy"
-                            >
-                              <source src="img/page3/p3_stans_vod_3.mp4" />
-                            </video>
-                          </dd>
-                        </dl>
-                        <a
-                          href="https://warsofprasia.beanfun.com/Career"
-                          rel="noopener noreferrer"
-                          target="_blank"
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div data-title="時空裂縫" class="swiper-slide swiper-slide-page">
-                <section class="area" id="page4">
-                  <div class="visual">
-                    <span class="bg_p4"></span>
-                    <span class="dimmed_p4"></span>
-                  </div>
-                  <div class="content">
-                    <div class="content_wrap">
-                      <div class="header">
-                        <h3 class="title_p4">
-                          <span></span>
-                        </h3>
-                      </div>
-                      <div class="detail_p4">
-                        <button class="video-open"></button>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div
-                data-title="區域：石牙象之脊"
-                class="swiper-slide swiper-slide-page"
-              >
-                <section class="area" id="page5">
-                  <div class="visual">
-                    <span class="bg_p5"></span>
-                    <span class="dimmed_p5"></span>
-                    <video
-                      loop
-                      autoplay
-                      muted
-                      playsinline
-                      class="visible-roomy"
-                    >
-                      <source src="img/page5/p5_video_back.mp4" />
-                    </video>
-                    <video loop autoplay muted playsinline>
-                      <source src="img/page5/p5_video_back_m.mp4" />
-                    </video>
-                  </div>
-                  <div class="content">
-                    <div class="content_wrap">
-                      <div class="header">
-                        <div class="title_p5">
-                          <sup>時空縫隙</sup>
-                          <span>石牙象之脊</span>
-                        </div>
-                      </div>
-                      <div class="detail_p5">
-                        <p>
-                          與時空縫隙形成時一同沉睡的石牙象地區<br />隨者1,600年前過去，村莊和人們跨越時間準備迎接守護者
-                        </p>
-                        <ul>
-                          <li>古代姆克羅</li>
-                          <li>黑色刀刃羅班斯</li>
-                          <li>銀色閃光伊斯多爾</li>
-                          <li>野獸調配者</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div
-                data-title="新世界：賽爾頓"
-                class="swiper-slide swiper-slide-page"
-              >
-                <section class="area" id="page6">
-                  <div class="visual">
-                    <span class="bg_p6"></span>
-                    <span class="dimmed_p6"></span>
-                  </div>
-                  <div class="content">
-                    <div class="content_wrap">
-                      <div class="header">
-                        <div class="title_p6">
-                          <sup>新世界</sup>
-                          <span>賽爾頓</span>
-                        </div>
-                      </div>
-                      <div class="detail_p6">
-                        <p>
-                          <span>10月02日 維護後 正式開啟！</span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-              <div
-                data-title="EP2紀念更新獎勵"
-                class="swiper-slide swiper-slide-page"
-              >
-                <section class="area" id="page7">
-                  <div class="visual">
-                    <span class="bg_p7"></span>
-                  </div>
-                  <div class="content">
-                    <div class="content_wrap">
-                      <div class="header">
-                        <div class="title_p7">
-                          <span></span>
-                        </div>
-                      </div>
-                      <div class="detail_p7">
-                        <dl class="reward1"></dl>
-                        <dl class="reward2"></dl>
-                        <dl class="reward3"></dl>
-                        <div class="swiper-container nested-swiper">
-                          <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                              <img src="./img/page7/p7_reward1_m.png" alt="" />
-                            </div>
-                            <div class="swiper-slide">
-                              <img src="./img/page7/p7_reward2_m.png" alt="" />
-                            </div>
-                            <div class="swiper-slide">
-                              <img src="./img/page7/p7_reward3_m.png" alt="" />
-                            </div>
-                          </div>
-                          <ol>
-                            <li>
-                              <i class="progress1"></i>
-                            </li>
-                            <li>
-                              <i class="progress2"></i>
-                            </li>
-                            <li>
-                              <i class="progress3"></i>
-                            </li>
-                          </ol>
-                          <div class="swiper-button-next"></div>
-                          <div class="swiper-button-prev"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
+              <div class="mCSB_draggerRail"></div>
             </div>
           </div>
+        </div>
+        <div
+          class="btn_toggle"
+          onclick="$('.side_nav').toggleClass('hide');return false"
+        >
+          <a href="#"><span class="btn_span">메뉴 열기/닫기</span></a>
+        </div>
+      </div>
+      <!-- //사이드 메뉴 -->
+
+      <script
+        type="text/javascript"
+        src="https://ssl.nexon.com/s1/global/ngb_gamestart.js"
+      ></script>
+      <script
+        src="https://platform.nexon.com/common/platform.js"
+        type="text/javascript"
+      ></script>
+      <script
+        src="https://platform.nexon.com/ngm/js/NGMModuleInfo.js"
+        type="text/javascript"
+      ></script>
+      <script
+        src="https://platform.nexon.com/ngm/js/npf_ngm.js"
+        type="text/javascript"
+        charset="euc-kr"
+      ></script>
+      <script>
+        // 신규 게임스타트
+        function MabinogiGameStart() {
+          $h.a2s.sendClickLog("GAME_START", '{"MabiID":""}');
+
+          $.ajax({
+            url: "/page/common/gamestart.asp",
+            async: false,
+            type: "post",
+            dataType: "text",
+            data: {},
+            timeout: 30000,
+            success: function (data) {
+              if (data == "2") {
+                if (
+                  confirm(
+                    "로그인 후 이용 가능한 서비스 입니다. 로그인 하시겠습니까?"
+                  )
+                ) {
+                  location.href =
+                    "/page/member/login.asp?url=/page/event/2025/0116_star2nd/index.asp";
+                  return false;
+                }
+              } else if (data == "3") {
+                alert("이메일ID로 로그인해주세요.");
+              } else if (data == "4") {
+                alert("게임중에 시작할 수 없습니다.");
+              } else if (data == "5") {
+                alert("마비노기ID로 다시 로그인해주세요.");
+                NgbLogin.Logout();
+              } else if (data == "6") {
+                alert("이메일ID로 다시 로그인해주세요.");
+                NgbLogin.Logout();
+              } else if (data == "7") {
+                alert("마비노기ID를 생성해주세요.");
+                location.href = "/page/main/index.asp";
+              } else if (data == "8") {
+                alert("제 3자 정보제공 동의 후 이용해주세요.");
+                location.href = "/page/main/index.asp";
+              } else {
+                NGM.LaunchGame("74245", data);
+                // 구글 ga
+                ga("send", "event", "게임시작", "버튼클릭", "메인 페이지");
+                // 페이스북 필셀
+                fbq("track", "Gamestart");
+                // 구글 스니펫
+                gtag_report_conversion();
+                // 페이스북 전환 추적
+                fbq("trackCustom", "CompleteRegistration_Btn");
+              }
+            },
+            error: function (xhr, textStatus, errorThrown) {
+              alert("오류 발생");
+            },
+          });
+        }
+
+        // Event snippet for 게임 실행 버튼 클릭
+        function gtag_report_conversion(url) {
+          var callback = function () {
+            if (typeof url != "undefined") {
+              window.location = url;
+            }
+          };
+
+          gtag("event", "conversion", {
+            send_to: "AW-940915063/IMApCMj8r4QBEPfy1MAD",
+            event_callback: callback,
+          });
+          return false;
+        }
+      </script>
+      <!-- //사이드 메뉴 -->
+    </div>
+    <iframe
+      id="_hjSafeContext_81559960"
+      title="_hjSafeContext"
+      tabindex="-1"
+      aria-hidden="true"
+      src="about:blank"
+      style="
+        display: none !important;
+        width: 1px !important;
+        height: 1px !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      "
+    ></iframe>
+
+    <div class="btn_go_top">
+      <a href="#Top"><span class="btn_span"></span></a>
+    </div>
+
+    <div class="pop_wrap">
+      <div class="pop_bg"></div>
+      <div class="pop_box">
+        <div class="pop s4p1">
+          <div class="v v1">
+            <video
+              src="https://mabinogi.vod.nexoncdn.co.kr/mabinogi_update/2025/0116_star2nd_vmfhah/1.mp4"
+              muted=""
+              loop=""
+              playsinline=""
+            ></video>
+          </div>
+          <div class="pop_close"></div>
+        </div>
+        <div class="pop s4p2">
+          <div class="v v1">
+            <video
+              src="https://mabinogi.vod.nexoncdn.co.kr/mabinogi_update/2025/0116_star2nd_vmfhah/2.mp4"
+              muted=""
+              loop=""
+              playsinline=""
+            ></video>
+          </div>
+          <div class="pop_close"></div>
+        </div>
+        <div class="pop s4p3">
+          <div class="v v1">
+            <video
+              src="https://mabinogi.vod.nexoncdn.co.kr/mabinogi_update/2025/0116_star2nd_vmfhah/3.mp4"
+              muted=""
+              loop=""
+              playsinline=""
+            ></video>
+          </div>
+          <div class="pop_close"></div>
+        </div>
+        <div class="pop s4p4">
+          <div class="v v1">
+            <video
+              src="https://mabinogi.vod.nexoncdn.co.kr/mabinogi_update/2025/0116_star2nd_vmfhah/4.mp4"
+              muted=""
+              loop=""
+              playsinline=""
+            ></video>
+          </div>
+          <div class="pop_close"></div>
+        </div>
+        <div class="pop s4p5">
+          <div class="v v1">
+            <video
+              src="https://mabinogi.vod.nexoncdn.co.kr/mabinogi_update/2025/0116_star2nd_vmfhah/5.mp4"
+              muted=""
+              loop=""
+              playsinline=""
+            ></video>
+          </div>
+          <div class="pop_close"></div>
+        </div>
+        <div class="pop s4p6">
+          <div class="v v1">
+            <video
+              src="https://mabinogi.vod.nexoncdn.co.kr/mabinogi_update/2025/0116_star2nd_vmfhah/6.mp4"
+              muted=""
+              loop=""
+              playsinline=""
+            ></video>
+          </div>
+          <div class="pop_close"></div>
+        </div>
+        <div class="pop s4p7">
+          <div class="v v1">
+            <video
+              src="https://mabinogi.vod.nexoncdn.co.kr/mabinogi_update/2025/0116_star2nd_vmfhah/7.mp4"
+              muted=""
+              loop=""
+              playsinline=""
+            ></video>
+          </div>
+          <div class="pop_close"></div>
+        </div>
+        <div class="pop s11p1">
+          <div class="ho ho1">
+            <div></div>
+          </div>
+          <div class="pop_close"></div>
         </div>
       </div>
     </div>
