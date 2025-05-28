@@ -67,35 +67,6 @@ span.btn_span {
     vertical-align: top
 }
 
-.wrap .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    width: 100%;
-    height: 60px
-}
-
-.wrap .footer.ft_white {
-    background: url("https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/footer/footer_w.png") no-repeat center 0
-}
-
-.wrap .footer.ft_black {
-    background: url("https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/footer/footer_b.png") no-repeat center 0
-}
-
-.wrap .footer.ft_op_100 {
-    opacity: 0
-}
-
-.wrap .footer.ft_op_70 {
-    opacity: .7
-}
-
-.wrap .footer.ft_op_40 {
-    opacity: .4
-}
-
 .wrap .cont {
     position: relative;
     font-family: "Pretendard",Arial,sans-serif;
@@ -105,62 +76,62 @@ span.btn_span {
 
 .wrap .cont.cont_01 {
     height: 1437px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_01.jpg?b39c974e80ec0742acf0) no-repeat center 0
+    background: url(../img/page/cont_01.jpg) no-repeat center 0
 }
 
 .wrap .cont.cont_02 {
     height: 1345px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_02.png?23f38da09466a9d67700) no-repeat center 0
+    background: url(../img/page/cont_02.png) no-repeat center 0
 }
 
 .wrap .cont.cont_03 {
     height: 1282px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_03.png?1ae04213792aba102777) no-repeat center 0
+    background: url(../img/page/cont_03.png) no-repeat center 0
 }
 
 .wrap .cont.cont_04 {
     height: 2429px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_04.png?ad965b256a5454188202) no-repeat center 0
+    background: url(../img/page/cont_04.png) no-repeat center 0
 }
 
 .wrap .cont.cont_05 {
     height: 968px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_05.png?519acdbab091189ad517) no-repeat center 0
+    background: url(../img/page/cont_05.png) no-repeat center 0
 }
 
 .wrap .cont.cont_06 {
     height: 1192px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_06.png?deca6a82d776f178f352) no-repeat center 0
+    background: url(../img/page/cont_06.png) no-repeat center 0
 }
 
 .wrap .cont.cont_07 {
     height: 2420px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_07.png?9ab88410a57705aea73e) no-repeat center 0
+    background: url(../img/page/cont_07.png) no-repeat center 0
 }
 
 .wrap .cont.cont_08 {
     height: 2452px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_08.png?a7d7348915c4baf1485e) no-repeat center 0
+    background: url(../img/page/cont_08.png) no-repeat center 0
 }
 
 .wrap .cont.cont_09 {
     height: 1521px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_09.png?f6e1e12f3d1d1097e1f8) no-repeat center 0
+    background: url(../img/page/cont_09.png) no-repeat center 0
 }
 
 .wrap .cont.cont_10 {
     height: 1961px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_10.png?ba28a5417192e77ec215) no-repeat center 0
+    background: url(../img/page/cont_10.png) no-repeat center 0
 }
 
 .wrap .cont.cont_11 {
     min-height: 1000px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_11.png?5d9c0e778ff27daed862) no-repeat center 0
+    background: url(../img/page/cont_11.png) no-repeat center 0
 }
 
 .wrap .cont.cont_12 {
     height: 887px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_12.png?97d032f8ceec3d8359e8) no-repeat center 0
+    background: url(../img/page/cont_12.png) no-repeat center 0
 }
 
 .event_info_wrap {
@@ -279,12 +250,12 @@ span.btn_span {
 }
 
 .cont_01 .intro .left .frame {
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_01_left_bg.png?c07373c6d25534adfe0c) no-repeat 0 0
+    background: url(../img/page/cont_01_left_bg.png) no-repeat 0 0
 }
 
 .cont_01 .intro .left .char {
     left: 0;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_01_left_char.png?ecdc532a990ed99edf61) no-repeat left bottom;
+    background: url(../img/page/cont_01_left_char.png) no-repeat left bottom;
     transition: left .4s ease-in-out
 }
 
@@ -307,7 +278,7 @@ span.btn_span {
 .cont_01 .intro .left .title {
     top: 473px;
     margin-left: -600px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_01_left_title.png?971f283350434021b7fe) no-repeat 0 0
+    background: url(../img/page/cont_01_left_title.png) no-repeat 0 0
 }
 
 .cont_01 .intro .left .title_over {
@@ -315,7 +286,7 @@ span.btn_span {
     width: 358px;
     height: 101px;
     margin-left: 370px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_01_left_title_over.png?0141f1fb4c737faa302b) no-repeat 0 0
+    background: url(../img/page/cont_01_left_title_over.png) no-repeat 0 0
 }
 
 .cont_01 .intro .left.on {
@@ -332,12 +303,12 @@ span.btn_span {
 }
 
 .cont_01 .intro .right .frame {
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_01_right_bg.png?0af00bb3d1f466f56640) no-repeat right 0
+    background: url(../img/page/cont_01_right_bg.png) no-repeat right 0
 }
 
 .cont_01 .intro .right .char {
     right: 0;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_01_right_char.png?4beffd2bdd09c1d76a75) no-repeat right bottom;
+    background: url(../img/page/cont_01_right_char.png) no-repeat right bottom;
     transition: right .4s ease-in-out
 }
 
@@ -360,7 +331,7 @@ span.btn_span {
 .cont_01 .intro .right .title {
     top: 477px;
     margin-left: 30px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_01_right_title.png?a3f9710021817a4b4a6f) no-repeat 0 0
+    background: url(../img/page/cont_01_right_title.png) no-repeat 0 0
 }
 
 .cont_01 .intro .right .title_over {
@@ -368,7 +339,7 @@ span.btn_span {
     width: 260px;
     height: 102px;
     margin-left: -325px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_01_right_title_over.png?643cd4ff3b5babacedc1) no-repeat 0 0
+    background: url(../img/page/cont_01_right_title_over.png) no-repeat 0 0
 }
 
 .cont_01 .intro .right.on {
@@ -390,7 +361,7 @@ span.btn_span {
     z-index: 1;
     width: 100%;
     height: 462px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_01_title.png?49d9e94b7ef6f4eee460) no-repeat center 0
+    background: url(../img/page/cont_01_title.png) no-repeat center 0
 }
 
 .cont_01 .cbox {
@@ -439,11 +410,11 @@ span.btn_span {
 }
 
 .tab1 {
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/tab1_bg.jpg?5721123c462d01d9588b) no-repeat center 0
+    background: url(../img/page/tab1_bg.jpg) no-repeat center 0
 }
 
 .tab2 {
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/tab2_bg.jpg?aa2f968ee2b7687955af) no-repeat center 0
+    background: url(../img/page/tab2_bg.jpg) no-repeat center 0
 }
 
 .nav {
@@ -453,7 +424,7 @@ span.btn_span {
     z-index: 10;
     width: 100%;
     height: 205px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/nav_bg.png?da55595d1ce6e6d70ef4) no-repeat center 0
+    background: url(../img/page/nav_bg.png) no-repeat center 0
 }
 
 .nav.fixed {
@@ -471,12 +442,12 @@ span.btn_span {
 
 .nav li:nth-child(1) {
     margin-left: -329px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/nav_btn_go_tab1.png?17952c1cdc3a20626f48) no-repeat 0 0
+    background: url(../img/page/nav_btn_go_tab1.png) no-repeat 0 0
 }
 
 .nav li:nth-child(2) {
     margin-left: 272px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/nav_btn_go_tab2.png?5a9bd105401d4df030e5) no-repeat 0 0
+    background: url(../img/page/nav_btn_go_tab2.png) no-repeat 0 0
 }
 
 .nav li:hover {
@@ -494,7 +465,7 @@ span.btn_span {
     width: 216px;
     height: 158px;
     margin-left: -58px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/nav_btn_go_main.png?543bd6b70b61cdbce136) no-repeat 0 0;
+    background: url(../img/page/nav_btn_go_main.png) no-repeat 0 0;
     cursor: pointer
 }
 
@@ -853,7 +824,7 @@ span.btn_span {
     z-index: 1;
     width: 100%;
     height: 100%;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_03.png?1ae04213792aba102777) no-repeat center 0
+    background: url(../img/page/cont_03.png) no-repeat center 0
 }
 
 .cont_03 .btn_char {
@@ -879,7 +850,7 @@ span.btn_span {
     right: 0;
     width: 26px;
     height: 100%;
-    background: #1dc2ff url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_03_btn_bg_close.png?70479eecc63cd15e8ab1) no-repeat center center;
+    background: #1dc2ff url(../img/page/cont_03_btn_bg_close.png) no-repeat center center;
     box-shadow: -10px 0px 30px rgba(0,0,0,.7);
     cursor: pointer
 }
@@ -917,11 +888,11 @@ span.btn_span {
 }
 
 .cont_03 .btn_char1 .bg {
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_03_btn1_bg.jpg?4a7260355334510ca39d) no-repeat 0 0
+    background: url(../img/page/cont_03_btn1_bg.jpg) no-repeat 0 0
 }
 
 .cont_03 .btn_char1 .char {
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_03_btn1.png?327b78893365af4501f6) no-repeat 0 0
+    background: url(../img/page/cont_03_btn1.png) no-repeat 0 0
 }
 
 .cont_03 .btn_char1:not(.on):hover .char:before,.cont_03 .btn_char1.on .char:before {
@@ -932,7 +903,7 @@ span.btn_span {
     display: block;
     width: 183px;
     height: 327px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_03_btn1_deco.png?6c9302cade303a14ef4d) no-repeat 0 0
+    background: url(../img/page/cont_03_btn1_deco.png) no-repeat 0 0
 }
 
 .cont_03 .btn_char:not(.on):hover {
@@ -962,7 +933,7 @@ span.btn_span {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_04.png?ad965b256a5454188202) no-repeat center 0
+    background: url(../img/page/cont_04.png) no-repeat center 0
 }
 
 .cont_04 .btn_go_pop {
@@ -1054,7 +1025,7 @@ span.btn_span {
     width: 419px;
     height: 261px;
     margin-left: -662px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_08_voice1.png?904d81e8d03f642576b1) no-repeat 0 0
+    background: url(../img/page/cont_08_voice1.png) no-repeat 0 0
 }
 
 .cont_08 .btn_voice2 {
@@ -1062,7 +1033,7 @@ span.btn_span {
     width: 472px;
     height: 201px;
     margin-left: 238px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_08_voice2.png?00c5136ed816043d157e) no-repeat 0 0
+    background: url(../img/page/cont_08_voice2.png) no-repeat 0 0
 }
 
 .cont_08 .btn_voice:hover {
@@ -1084,7 +1055,7 @@ span.btn_span {
     left: 64px;
     width: 976px;
     height: 96px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_08_ho1.png?0b85fee21139c62a71cb) no-repeat 0 0
+    background: url(../img/page/cont_08_ho1.png) no-repeat 0 0
 }
 
 .cont_08 .ho2 {
@@ -1096,7 +1067,7 @@ span.btn_span {
     left: -280px;
     width: 959px;
     height: 95px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_08_ho2.png?b76750e6759e37e8061f) no-repeat 0 0
+    background: url(../img/page/cont_08_ho2.png) no-repeat 0 0
 }
 
 .cont_08 .ho3 {
@@ -1109,7 +1080,7 @@ span.btn_span {
     left: 29px;
     width: 349px;
     height: 266px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_08_ho3.png?8ba7332e9ed53bfaf482) no-repeat 0 0
+    background: url(../img/page/cont_08_ho3.png) no-repeat 0 0
 }
 
 .cont_09 .gallery {
@@ -1153,7 +1124,7 @@ span.btn_span {
     left: 0;
     width: 444px;
     height: 345px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_09_ho1.png?6cdfa1648d0afbc2526c) no-repeat 0 0
+    background: url(../img/page/cont_09_ho1.png) no-repeat 0 0
 }
 
 .cont_09 .ho2 {
@@ -1165,7 +1136,7 @@ span.btn_span {
     left: -1px;
     width: 461px;
     height: 415px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_09_ho2.png?4ce9a67aeb1862074ecd) no-repeat 0 0
+    background: url(../img/page/cont_09_ho2.png) no-repeat 0 0
 }
 
 .cont_09 .ho3 {
@@ -1177,7 +1148,7 @@ span.btn_span {
     left: -1px;
     width: 465px;
     height: 546px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_09_ho3.png?b5ce1d0758a92c2890d0) no-repeat 0 0
+    background: url(../img/page/cont_09_ho3.png) no-repeat 0 0
 }
 
 .cont_09 .ho4 {
@@ -1189,7 +1160,7 @@ span.btn_span {
     left: -58px;
     width: 394px;
     height: 453px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_09_ho4.png?c69bff971c5f3e5ef118) no-repeat 0 0
+    background: url(../img/page/cont_09_ho4.png) no-repeat 0 0
 }
 
 .cont_11 {
@@ -1242,7 +1213,7 @@ span.btn_span {
 .cont_11 .wbox {
     padding: 184px 0 197px;
     margin-bottom: 106px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_11_title1.png?1b978530a7feb5f31c61) no-repeat center 0,url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_11_bottom1.png?862e02f79e2876f5b15b) no-repeat center bottom
+    background: url(../img/page/cont_11_title1.png) no-repeat center 0,url(../img/page/cont_11_bottom1.png) no-repeat center bottom
 }
 
 .cont_11 .wbox .wb {
@@ -1293,7 +1264,7 @@ span.btn_span {
 
 .cont_11 .ebox {
     padding: 210px 0 113px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_11_title2.png?8a0a025223b6bd6519ce) no-repeat center 0,url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_11_bottom2.png?61c205d481d1babf0889) no-repeat center bottom
+    background: url(../img/page/cont_11_title2.png) no-repeat center 0,url(../img/page/cont_11_bottom2.png) no-repeat center bottom
 }
 
 .cont_11 .ebox .eb {
@@ -1327,7 +1298,7 @@ span.btn_span {
     display: none;
     width: 92px;
     height: 91px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/btn_top.png?c4ee59b9eea1d3641f89) no-repeat 0 0
+    background: url(../img/page/btn_top.png) no-repeat 0 0
 }
 
 .pop_dimmed {
@@ -1390,7 +1361,7 @@ span.btn_span {
     width: 49px;
     height: 49px;
     margin-left: -24px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/pop_close.png?5ffeacf2a22f046894e8) no-repeat 0 0
+    background: url(../img/page/pop_close.png) no-repeat 0 0
 }
 
 .pop_wrap .pop_box .pop .v {
@@ -1409,7 +1380,7 @@ span.btn_span {
 
 .pop_wrap .pop_box .pop.s4p1 {
     height: 780px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_04_pop1.jpg?89d47bc7334ea401ff8a) no-repeat center 72px
+    background: url(../img/page/cont_04_pop1.jpg) no-repeat center 72px
 }
 
 .pop_wrap .pop_box .pop.s4p1 .v {
@@ -1418,7 +1389,7 @@ span.btn_span {
 
 .pop_wrap .pop_box .pop.s4p2 {
     height: 678px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_04_pop2.jpg?35f35cc1708a6e316896) no-repeat center 72px
+    background: url(../img/page/cont_04_pop2.jpg) no-repeat center 72px
 }
 
 .pop_wrap .pop_box .pop.s4p2 .v {
@@ -1427,7 +1398,7 @@ span.btn_span {
 
 .pop_wrap .pop_box .pop.s4p3 {
     height: 678px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_04_pop3.jpg?dd1bec316dc003e8e7c8) no-repeat center 72px
+    background: url(../img/page/cont_04_pop3.jpg) no-repeat center 72px
 }
 
 .pop_wrap .pop_box .pop.s4p3 .v {
@@ -1436,7 +1407,7 @@ span.btn_span {
 
 .pop_wrap .pop_box .pop.s4p4 {
     height: 678px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_04_pop4.jpg?0f4f1e60d5d1d57773d2) no-repeat center 72px
+    background: url(../img/page/cont_04_pop4.jpg) no-repeat center 72px
 }
 
 .pop_wrap .pop_box .pop.s4p4 .v {
@@ -1445,7 +1416,7 @@ span.btn_span {
 
 .pop_wrap .pop_box .pop.s4p5 {
     height: 780px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_04_pop5.jpg?65a8fb4119cc3f7faec9) no-repeat center 72px
+    background: url(../img/page/cont_04_pop5.jpg) no-repeat center 72px
 }
 
 .pop_wrap .pop_box .pop.s4p5 .v {
@@ -1454,7 +1425,7 @@ span.btn_span {
 
 .pop_wrap .pop_box .pop.s4p6 {
     height: 780px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_04_pop6.jpg?6b2e75603b4753c51d15) no-repeat center 72px
+    background: url(../img/page/cont_04_pop6.jpg) no-repeat center 72px
 }
 
 .pop_wrap .pop_box .pop.s4p6 .v {
@@ -1463,7 +1434,7 @@ span.btn_span {
 
 .pop_wrap .pop_box .pop.s4p7 {
     height: 780px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_04_pop7.jpg?42d115ed6de5b9ec8d66) no-repeat center 72px
+    background: url(../img/page/cont_04_pop7.jpg) no-repeat center 72px
 }
 
 .pop_wrap .pop_box .pop.s4p7 .v {
@@ -1472,7 +1443,7 @@ span.btn_span {
 
 .pop_wrap .pop_box .pop.s11p1 {
     height: 847px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_11_pop1.jpg?f4fe6a83acf1494f369c) no-repeat center 72px
+    background: url(../img/page/cont_11_pop1.jpg) no-repeat center 72px
 }
 
 .pop_wrap .pop_box .pop.s11p1 .ho {
@@ -1487,5 +1458,5 @@ span.btn_span {
     left: -91px;
     width: 199px;
     height: 224px;
-    background: url(https://ssl.nexon.com/s2/game/mabinogi/MabiWeb/event/2025/0116_star2nd_vmfhah/images/cont_11_pop1_ho1.png?7943bcab8c1741131ccc) no-repeat 0 0
+    background: url(../img/page/cont_11_pop1_ho1.png) no-repeat 0 0
 }
