@@ -31,7 +31,7 @@ $(document).ready(() => {
         $('.cont.cont_01').addClass('back');
         $('.tab.tab1').css('display', 'block');
         $('.nav').css('display', 'block');
-        // $('.nav ul li').addClass('on');
+        $('.nav ul li').addClass('on');
         $('.wrap').css('height', '10465px');
         window.scrollTo({
             top: 0,
