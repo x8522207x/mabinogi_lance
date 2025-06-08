@@ -1,0 +1,467 @@
+@media (max-width: 1280px) and (min-width: 769px) {
+  .cont_01 .intro>.title {
+    width: 779px;
+    height: 260px;
+    top: 110px;
+  }
+
+  .yt_vid {
+    width: 720px;
+    height: 405px;
+    z-index: 30;
+  }
+
+  .wrap .cont.cont_02 {
+    height: 870px;
+  }
+
+  .wrap .cont.cont_03 {
+    height: 1330px;
+  }
+
+  .cont_03 .btn_char .bg {
+    left: 0px;
+    top: unset;
+  }
+
+  .cont_03 .btn_char1 {
+    top: unset;
+    left: 0;
+    width: 150px;
+    height: 390px;
+  }
+
+  .cont_03 .btn_char1 .char {
+    width: 150px;
+    height: 390px;
+  }
+
+  .cont_03 .btn_char1:not(.on):hover .char:before {
+    background-image: unset;
+  }
+
+  .cont_03 .btn_char1.on .char:before {
+    left: -91px;
+    width: 91px;
+    height: 163px;
+  }
+
+  .cont_03 .btn_char1 .bg {
+    background-image: url(../img/page/m_cont_08_btn1_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    aspect-ratio: 730 / 1089;
+    height: unset;
+  }
+
+  .cont_03 .btn_char .bg .bbox {
+    width: 769px;
+    aspect-ratio: 730 / 1089;
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-right: 0px;
+  }
+
+  .cont_03 .btn_char .bg .bbox .content {
+    margin-top: 50px;
+    width: 520px;
+    height: 550px;
+  }
+
+  .cont_03 .btn_char .bg .bbox .ctxt {
+    margin-top: 40px;
+  }
+
+  .bgm_info {
+    top: 1099px;
+    left: 0px;
+  }
+
+  .cont_03 .btn_char .bg .m_btn_close {
+    transform: rotate(270deg);
+    position: absolute;
+    z-index: 2;
+    top: -370px;
+    left: 370px;
+    transform-origin: center center;
+    right: unset;
+    height: 769px;
+    width: 26px;
+    background-image: url(../img/page/cont_03_btn_bg_close.png);
+    background-repeat: no-repeat;
+    background-color: rgb(29, 194, 255);
+    background-position: center;
+    box-shadow: -10px 0px 30px rgba(0, 0, 0, .7);
+    cursor: pointer;
+  }
+
+  .cont_03 .char_txt {
+    margin-left: -150px;
+    top: 980px;
+  }
+
+  .cont_03>.textBox>.txt {
+    width: 461px;
+    height: 109px;
+    background-size: cover;
+  }
+
+  .cont.cont_04 {
+    height: 1715px;
+  }
+
+  .cont_04>.textBox>.txt {
+    width: 276px;
+    height: 153px;
+    background-size: cover;
+  }
+
+  .cont_04 .skill_title {
+    top: 280px;
+  }
+
+  .cont_04 .skills_set {
+    top: 400px;
+    position: absolute;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .cont_04 .level_block {
+    top: 580px;
+  }
+
+  .cont_04 .btn_go_pop {
+    margin-left: 0px;
+    position: unset;
+    width: 105px;
+    height: 105px;
+  }
+
+  .cont_04 .level_block .level_table {
+    width: 100vw;
+    height: unset;
+    aspect-ratio: 495 / 653;
+  }
+
+  .cont_05>.textBox>.txt {
+    width: 270px;
+    height: 109px;
+    background-size: cover;
+  }
+
+  .cont_05 .content {
+    width: 100vw;
+    aspect-ratio: 982 / 447;
+    height: unset;
+  }
+
+  .pop_wrap .pop_box .pop {
+    width: 100vw;
+    height: 1100px;
+    background-size: cover;
+  }
+
+  .pop_wrap .pop_box .pop .v {
+    width: 100vw;
+    aspect-ratio: 468 / 369;
+    height: unset;
+  }
+
+  .pop_wrap .pop_box .pop .v video {
+    margin-left: 0px;
+  }
+
+  .pop_wrap .pop_box .pop .skill_area .subContent {
+    width: 100vw;
+    height: 500px;
+  }
+
+  .pop_wrap .pop_box .pop .skill_area .content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .cont_01 .intro>.title {
+    width: 430px;
+    height: 87.5px;
+    top: 110px;
+  }
+
+  .cont_01 .intro .left {
+    width: 100vw;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cont_01 .intro .left .char {
+    background-size: cover;
+    background-position: 50% 50%;
+    bottom: 0;
+    position: absolute;
+  }
+
+  .cont_01 .intro .left .char {
+    width: 996px;
+    height: 450px;
+  }
+
+  .cont_01 .intro .left .char .title {
+    transform: translateX(-5%) translateY(-15%);
+  }
+
+  .cont_01 .cbox .cbox_btn.left {
+    width: 100vw;
+    height: 450px;
+  }
+
+  .nav {
+    height: 205px;
+  }
+
+  .nav .btn_go_main {
+    width: 162px;
+    height: 119px;
+  }
+
+  .nav .tab1_btn {
+    position: relative;
+    margin-left: calc(100vw - 100px);
+    width: 126px;
+    height: 47px;
+  }
+
+  .wrap .cont.cont_02 .content {
+    width: 634px;
+    height: 201px;
+    background-image: url(../img/page/cont_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .wrap .cont.cont_02 {
+    height: 450px;
+  }
+
+  .wrap .cont.cont_03 {
+    margin-top: 30px;
+    height: 880px;
+  }
+
+  .cont_03>.textBox>.description,
+  .cont_04>.textBox>.description,
+  .cont_03 .char_txt .char_saying,
+  .cont_04 .level_block .level_desc {
+    font-size: 17px;
+  }
+
+  .cont_05>.textBox>.description {
+    font-size: 19px;
+  }
+
+  .cont_03 .char_txt .char_title .char_fullName {
+    font-size: 20px;
+  }
+
+  .cont_04 .skill_title p,
+  .cont_04 .level_title p {
+    font-size: 34px;
+  }
+
+  .yt_vid {
+    top: 240px !important;
+    width: 360px;
+    height: 202px;
+    z-index: 30;
+  }
+
+  .cont_03 .char_txt .char_title .char_fullName .char_name {
+    font-size: 33px;
+  }
+
+  .cont_03 .btn_char .bg {
+    left: 0px;
+    top: unset;
+  }
+
+  .cont_03 .btn_char1 {
+    top: unset;
+    left: 0;
+    /* margin-left: 0px; */
+    width: 150px;
+    height: 390px;
+  }
+
+  .cont_03 .btn_char1 .char {
+    width: 150px;
+    height: 390px;
+  }
+
+  .cont_03 .btn_char1:not(.on):hover .char:before {
+    background-image: unset;
+  }
+
+  .cont_03 .btn_char1.on .char:before {
+    left: -90px;
+    width: 91.5px;
+    height: 163.5px;
+  }
+
+  .cont_03 .btn_char1 .bg {
+    background-image: url(../img/page/m_cont_08_btn1_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    aspect-ratio: 730 / 1089;
+    height: unset;
+  }
+
+  .cont_03 .btn_char .bg .bbox {
+    width: 375px;
+    aspect-ratio: 730 / 1089;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-right: 0px;
+  }
+
+  .cont_03 .btn_char .bg .bbox .content {
+    width: 190px;
+    height: 290px;
+  }
+
+  .bgm_info {
+    top: 511px;
+    left: 0px;
+  }
+
+  .cont_03 .btn_char .bg .bbox .desc {
+    font-size: 30px;
+  }
+
+  .cont_03 .btn_char .bg .bbox .title {
+    font-size: 50px;
+  }
+
+  .cont_03 .btn_char .bg .bbox .ctxt {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .cont_03 .btn_char .bg .m_btn_close {
+    transform: rotate(270deg);
+    position: absolute;
+    z-index: 2;
+    top: -175px;
+    left: 175px;
+    transform-origin: center center;
+    right: unset;
+    height: 375px;
+    width: 26px;
+    background-image: url(../img/page/cont_03_btn_bg_close.png);
+    background-repeat: no-repeat;
+    background-color: rgb(29, 194, 255);
+    background-position: center;
+    box-shadow: -10px 0px 30px rgba(0, 0, 0, .7);
+    cursor: pointer;
+  }
+
+  .cont_03 .char_txt {
+    margin-left: -200px;
+    top: 660px;
+  }
+
+  .cont_03>.textBox>.txt {
+    width: 307px;
+    height: 73px;
+    background-size: cover;
+  }
+
+  .cont_04 .mov_bg {
+    top: -680px;
+  }
+
+  .cont_04 .gallery {
+    top: unset;
+    margin-top: 30px;
+    width: 100vw;
+    aspect-ratio: 909 / 388;
+    height: unset;
+  }
+
+  .cont_04 .skill_title {
+    top: 255px;
+  }
+
+  .cont_04 .skills_set {
+    top: 370px;
+    position: absolute;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .cont_04 .btn_go_pop {
+    margin-left: 0px;
+    position: unset;
+    width: 70px;
+    height: 70px;
+  }
+
+  .cont_04 .level_block {
+    top: 470px;
+  }
+
+  .cont_04 .level_block .level_table {
+    width: 100vw;
+    height: unset;
+    aspect-ratio: 495 / 653;
+  }
+
+  .cont_04>.textBox>.txt {
+    width: 276px;
+    height: 153px;
+    background-size: cover;
+  }
+
+  .cont_05 .content {
+    width: 100vw;
+    aspect-ratio: 982 / 453;
+    height: unset;
+  }
+
+  .cont_05>.textBox>.txt {
+    width: 285px;
+    height: 111px;
+    background-size: cover;
+  }
+
+  .pop_wrap .pop_box .pop {
+    width: 100vw;
+    height: 1100px;
+    background-size: cover;
+  }
+
+  .pop_wrap .pop_box .pop .v {
+    width: 100vw;
+    aspect-ratio: 468 / 369;
+    height: unset;
+  }
+
+  .pop_wrap .pop_box .pop .v video {
+    margin-left: 0px;
+  }
+
+  .pop_wrap .pop_box .pop .skill_area .subContent {
+    width: 100vw;
+    height: 500px;
+  }
+
+  .pop_wrap .pop_box .pop .skill_area .content {
+    flex-direction: column;
+  }
+}

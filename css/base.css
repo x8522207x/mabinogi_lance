@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 /* standard css start */
 body,
 div,
@@ -45,7 +44,7 @@ iframe {
 }
 
 body {
-  font-family: 나눔고딕, Nanum Gothic, 'NanumGothic', 돋움, Dotum, Arial, sans-serif;
+  font-family: "Noto Serif TC", serif;
   font-size: 16px;
   color: #676767;
   line-height: 1;
@@ -89,7 +88,7 @@ h6 {
 select,
 input,
 textarea {
-  font-family: 나눔고딕, Nanum Gothic, 'NanumGothic', 돋움, Dotum, Arial, sans-serif;
+  font-family: "Noto Serif TC", serif;
   color: #676767;
   vertical-align: middle;
   letter-spacing: -1px
@@ -141,9 +140,9 @@ textarea {
   -webkit-border-radius: 0
 }
 
-input[type="checkbox"] {
+/* input[type="checkbox"] {
   -webkit-appearance: checkbox
-}
+} */
 
 input[type="radio"] {
   -webkit-appearance: radio;
