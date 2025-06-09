@@ -47,7 +47,7 @@
   }
 
   .cont_03 .btn_char1 .bg {
-    background-image: url(../img/page/m_cont_08_btn1_bg.png);
+    background-image: url(../img/page/m_cont_03_btn1_bg.png);
     background-repeat: no-repeat;
     background-size: contain;
     aspect-ratio: 730 / 1089;
@@ -230,7 +230,7 @@
 
   .nav .tab1_btn {
     position: relative;
-    margin-left: calc(100vw - 100px);
+    margin-right: calc(100vw - 150px);
     width: 126px;
     height: 47px;
   }
@@ -313,7 +313,7 @@
   }
 
   .cont_03 .btn_char1 .bg {
-    background-image: url(../img/page/m_cont_08_btn1_bg.png);
+    background-image: url(../img/page/m_cont_03_btn1_bg.png);
     background-repeat: no-repeat;
     background-size: contain;
     aspect-ratio: 730 / 1089;
@@ -397,7 +397,8 @@
   }
 
   .cont_04 .skills_set {
-    top: 370px;
+    top: 320px;
+    flex-wrap: wrap;
     position: absolute;
     display: flex;
     align-self: center;
