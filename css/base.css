@@ -140,10 +140,6 @@ textarea {
   -webkit-border-radius: 0
 }
 
-/* input[type="checkbox"] {
-  -webkit-appearance: checkbox
-} */
-
 input[type="radio"] {
   -webkit-appearance: radio;
   -webkit-border-radius: 10px
