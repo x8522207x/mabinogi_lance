@@ -971,8 +971,8 @@ span.btn_span {
 
 .cont_05>.textBox>.txt {
     z-index: 1;
-    width: 570px;
-    height: 223px;
+    width: 541px;
+    height: 219px;
     background-image: url(../img/page/cont_05_title.png);
     background-repeat: no-repeat;
 }
@@ -990,8 +990,8 @@ span.btn_span {
     background-image: url(../img/page/cont_05_content.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 982px;
-    height: 447px;
+    width: 987px;
+    height: 448px;
 }
 
 .btn_go_top {

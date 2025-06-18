@@ -207,8 +207,8 @@
   }
 
   .cont_01 .intro .left .char {
-    width: 996px;
-    height: 450px;
+    width: 954px;
+    height: 470px;
   }
 
   .cont_01 .intro .left .char .title {
@@ -434,13 +434,13 @@
 
   .cont_05 .content {
     width: 100vw;
-    aspect-ratio: 982 / 453;
+    aspect-ratio: 987 / 448;
     height: unset;
   }
 
   .cont_05>.textBox>.txt {
-    width: 285px;
-    height: 111px;
+    width: 270px;
+    height: 110px;
     background-size: cover;
   }
 
